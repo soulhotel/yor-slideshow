@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Slide Show
+Comment=Set wallpaper to slideshow
+Exec=gnome-terminal -- /home/j/scripts/0/yor-slideshow.sh
+Icon=image-x-generic
+Terminal=false
+Categories=Utility;
+
