@@ -21,9 +21,13 @@ To use it like any other application:
 2. First, directory for the .desktop file is set to `/home/j/` which is Me.. so lets set it to You.
 3. Then move it to your application folder
 4. Then open your APPs and Enjoy.
+5. If on KDE, make the desktop file open in konsole instead of gnome terminal.
 ```
 sed -i "s|/home/j/|/home/$USER/|" slideshow.sh  # set the User to You
 mv slideshow.sh ~/.local/share/applications/    # move it to app folder
+
+# for kde only
+sed -i "s|gnome-terminal --|konsole -e |" ~/.local/share/applications/slideshow.sh
 ```
 
 
