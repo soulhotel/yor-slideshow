@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-image_base_folder="/home/$USER/Pictures/walls"
+image_base_folder="/home/$USER/Pictures"
 duration_seconds="30.0"
 
 while true; do
