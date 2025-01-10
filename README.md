@@ -26,3 +26,10 @@ sed -i "s|/home/j/|/home/$USER/|" slideshow.sh
 mv slideshow.sh ~/.local/share/applications/
 ```
 4. Open your APPs and Enjoy.
+
+### <ins>Modification
+- You can modify `yor-slideshow.sh` by opening it in a text editor
+    - line 4 ~ The slideshow is created based on folders found in `image_base_folder`, the default is `/Pictures`.
+    - line 5 ~ Is the duration for each slide, by default each slide is a 30 second `duration_seconds` transition.
+- By picking a folder a new slideshow_foldername.xml will be created in the `image_base_folder` location.
+- If the slideshow.xml already exist, it will erase and rewrite it.
