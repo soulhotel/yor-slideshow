@@ -1,6 +1,6 @@
 ## Yor-Slideshow. TUI for Linux Gnome and KDE.
 
-Make and Set Wallpaper Slideshows in 1 action. The practicality for this TUI is the easibility of having an xml file that you don't need to manually edit, adjusting date and time, adding/removing pictures whenever you update your collection, editting the order of the pictures which gnome extensions especially don't do, they typically transition the wallpapers in random order. This script does it all automatically for you.
+Make and Set Wallpaper Slideshows in 1 action. The practicality for this TUI is the easibility of having an xml file that you don't need to manually edit, adjusting date and time, adding/removing pictures whenever you update your collection, editting the order of the pictures which gnome extensions especially don't do, they typically transition the wallpapers in random order. This script does it all automatically for you. + It's only 3.4kB.
 
 ## Preview
 > For the purpose of this demonstration the slideshow duration is set to 5 seconds.
