@@ -80,6 +80,9 @@ Make a Wallpaper Slideshow from folders found in $image_base_folder...
     gsettings set org.gnome.desktop.background picture-uri-dark "file://$xml_file"
     gsettings set org.gnome.desktop.background picture-uri "file://$xml_file"
     gsettings set org.gnome.desktop.background picture-options "zoom"
+    kwriteconfig5 --file kwinrc --group 'Wallpaper' 'Wallpaper' "file://$xml_file"
+    kwriteconfig5 --file kwinrc --group 'Wallpaper' 'Style' "slideshow"
+    kwriteconfig5 --file kwinrc --group 'Wallpaper' 'LastWallpaper' "file://$xml_file"
 
     echo -e "\nSlideshow is now in use!"
 
